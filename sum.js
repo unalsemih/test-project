@@ -2,4 +2,14 @@ function sum(a, b) {
     return a + b;
 }
 
-module.exports = sum;
+function sumAllNumbers (numbers) {
+    if (typeof numbers !== 'object') 
+        return;
+
+    return numbers.reduce((a, b) => a + b);
+}
+
+module.exports = {
+    sum: sum,
+    sumAllNumbers: sumAllNumbers,
+};
