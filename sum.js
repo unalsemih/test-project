@@ -4,7 +4,7 @@ function sum(a, b) {
 
 function sumAllNumbers (numbers) {
     if (typeof numbers !== 'object') 
-        return;
+        return 0;
 
     return numbers.reduce((a, b) => a + b);
 }
