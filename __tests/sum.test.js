@@ -5,7 +5,7 @@ test('adds 1 + 2 to equal 3', () => {
 });
 
 test('sum all numbers', () => {
-  expect(sumAllNumbers([1, 2, 3])).toBe(6);
+  expect(sumAllNumbers([1, 2, 3, 4])).toBe(6);
 });
 
 test('if parameter is not array, returns void', () => {
